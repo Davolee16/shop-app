@@ -31,11 +31,13 @@ class Cart extends ChangeNotifier {
   void addItemToCart(Shoe shoe) {
     userCart.add(shoe);
     notifyListeners();
+    
   }
 
   // remove items from cart
   void removeItemFromCart(Shoe shoe) {
     userCart.remove(shoe);
     notifyListeners();
+    
   }
 }
