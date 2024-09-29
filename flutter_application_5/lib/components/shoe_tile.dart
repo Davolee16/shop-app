@@ -42,6 +42,7 @@ class ShoeTile extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 20,
+              overflow: TextOverflow.ellipsis
             ),),
           
             SizedBox(height: 5,),
